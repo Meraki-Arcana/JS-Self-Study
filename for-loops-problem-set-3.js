@@ -1,6 +1,6 @@
 /*
 
-    1. Create a for loop that runs ffrom 1 - 100.
+    1. Create a for loop that runs from 1 - 100.
     2. Every 10 loops, print out: Checkpoint! + the loop number.
     3. On loop 50 print out: Half way there!
     4. On the final loop (100) print out: You made it! All done :)
