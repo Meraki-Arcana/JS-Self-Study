@@ -66,10 +66,10 @@ const generateDeck = () => {
   dealerHand.push(drawCard(myDeck));
   dealerHand.push(drawCard(myDeck));
   
-  console.log("Staring Player Hand: ", playerHand)
-  console.log("Staring Player Hand: ", checkScore(playerHand))
-  console.log("Staring Dealer Hand: ", dealerHand)
-  console.log("Staring Player Hand: ", checkScore(dealerHand))
+  console.log("Starting Player Hand: ", playerHand)
+  console.log("Starting Player Hand: ", checkScore(playerHand))
+  console.log("Starting Dealer Hand: ", dealerHand)
+  console.log("Starting Player Hand: ", checkScore(dealerHand))
   
   
   checkScore(playerHand);
