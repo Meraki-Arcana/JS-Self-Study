@@ -25,7 +25,8 @@ const generateDeck = () => {
     return deck;
   };
   
-  
+  const myDeck = generateDeck();
+
   const drawCard = () => {
     const randomIndex = Math.floor(Math.random() * myDeck.length);
     const card = myDeck[randomIndex];
@@ -56,7 +57,7 @@ const generateDeck = () => {
   console.log(myCard);
   console.log(myDeck.length);
   
-  const myDeck = generateDeck();
+  
   const playerHand = [];
   const dealerHand = [];
   
